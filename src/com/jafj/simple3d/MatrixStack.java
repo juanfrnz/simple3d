@@ -31,7 +31,7 @@ public class MatrixStack {
 
     public void glFrustumx(int left, int right, int bottom, int top, int near,int far) {
         glFrustumf(fixedToFloat(left),fixedToFloat(right),
-        		fixedToFloat(bottom), fixedToFloat(top),
+                fixedToFloat(bottom), fixedToFloat(top),
                 fixedToFloat(near), fixedToFloat(far));
     }
 
